@@ -1,0 +1,23 @@
+{
+  "description": "Explicitly exported public InVastor SDK/client examples; development snapshot, not proof of production deployment.",
+  "files": {
+    "examples/commerce/sandbox.mjs": "0f764990d4bfd4fa25b9e48a1febeab84dab78f5291d73d89182e39cf365965f",
+    "examples/commerce/sandbox.py": "61027d4f8e1ffd1dcd29a43cc9e6c0057187479307ac2ad3dca1c20430a70829",
+    "examples/commerce/lifecycle-sandbox.mjs": "4b89a176648ee0c1e5fb8ca8b266449c4d6b06d4c526259c6b7e51811a745207",
+    "examples/commerce/lifecycle-sandbox.py": "baa53922748044d24358683d46b6820ae08bb2bdcc07046aa47b74254697e132",
+    "examples/commerce/monitor.mjs": "481397742caa7fa2190b61c5ca87f622ae1d984f6ff5352e6f5ed94d1ce10309",
+    "examples/commerce/monitor.py": "245f0025aec883882dc5f43624a84d972c66eac65a316ae9f351483692319936",
+    "examples/commerce/live-buy.mjs": "550874af8c5fa6a42e23f100806c5dc5f5ae4740d42a7098c2404739a67f6cd7",
+    "examples/commerce/live-buy.py": "c0d6af3a5eb9370babe2551e378540e0ecf58cc4c0bc554407022491fdbd0bb8",
+    "examples/commerce/wallet-bridge.mjs": "9bb5c9e7175121e682a2d4b38b5263638be70754b88750ed5c19683b101bcef4",
+    "examples/commerce/README.md": "68e472568349ce5a4099f24ad23a553c27bb6e344c0ae43e686e1e4d2c8a3eb9",
+    "examples/langchain/.gitignore": "5707f5e546956402254e40fea562feae5b7411135eb506525c351d2b07ce84dc",
+    "examples/langchain/invastor_commerce.py": "306373f9ace5f6e23de4d5a1301f5e6323430029fc9159e89e74c81a7356cb3c",
+    "examples/langchain/invastor.py": "eeb66d06e3b3170cc2880a48b0d2e29a5538c64f5d28a619248ef14d95e21c16",
+    "examples/langchain/invastor_langchain.py": "bd781dc558c3a62c48e0b8beec71ce5666897b84eec5c21fd0fc2b2f32a6c129",
+    "examples/langchain/invastor_connection_store.py": "8f4a71de5bfd38b88bd3fcd7d704917b7efb27f2091064e264cfc116f09d355d",
+    "examples/langchain/invastor_seller.py": "08b59e0140c07019a5f8f413d573944007a119dd0d39155860e8dabbd961f208",
+    "examples/langchain/requirements.txt": "0b3edb2273cf8afd176fae475b2e36eb74b9d94603060df1cb7f658f7fcc134b",
+    "examples/langchain/README.md": "1a04d85be97e0bc2b8db1f1cc6a18ae2f2ac7392a3d4c90b89822b3f6ae5da04"
+  }
+}

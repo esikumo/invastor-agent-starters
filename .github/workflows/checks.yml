@@ -1,0 +1,24 @@
+name: Check starter examples
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 scripts/check.py
+      - run: node --test tests/sandbox-transport.test.mjs
+      - run: python3 -m pip install -r examples/langchain/requirements.txt
+      - name: Import actual LangChain tools without calling the marketplace
+        working-directory: examples/langchain
+        run: python3 -c "from invastor_langchain import build_tools; from invastor_commerce import SandboxCommerce; assert callable(build_tools)"
